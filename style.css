@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    width: 550px;
+    background: #6943FF;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.input-box {
+    padding: 30px 50px;
+}
+
+.span-div {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-family: 'Inter';
+    font-size: 50px;
+    margin: 30px 25px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    background: #6943FF;
+    color: #FFFFFF;
+}
+
+.btn {
+    cursor: pointer;
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    color: #3D3D3D;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+    padding: 10px 10px;
+}
+
+.btn:hover {
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.output-box {
+    background: #F4F4F4;
+    padding: 35px 25px;
+}
+
+.box {
+    font-weight: 600;
+    font-size: 20px;
+    color: #5A537B;
+    width: 500px;
+    background: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.mass {
+    margin-bottom: 0px;
+}
+
+.paragraph {
+    font-size: 14px;
+    color: #353535;
+    font-weight: n;
+    letter-spacing: 1px;
+}
+
+.par {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+    .container {
+        font-size: 16px;
+        line-height: 38px;
+        width: 270px;
+        margin: 1vh 1vh;
+        line-height: 29px;
+    }
+    .input-box {
+        padding: 15px 15px;
+    }
+    input {
+        font-size: 25px;
+        width: 100px;
+        height: 66px;
+        margin: 10px 25px;
+    }
+    .btn {
+        width: 100px;
+        height: 35px;
+    }
+    .output-box {
+        background: #F4F4F4;
+        padding: 15px 15px;
+    }
+    .box {
+        font-size: 12px;
+        width: 240px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .paragraph {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .par {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
